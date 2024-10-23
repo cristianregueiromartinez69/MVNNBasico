@@ -32,5 +32,11 @@ class MyViewModel(): ViewModel() {
         Datos.numero = auxNumero
     }
 
+    fun getNumero(): Int {
+        Log.d(TAG_LOG, "devolvemos numero de Datos")
+        return Datos.numero
+    }
+
+
 
 }
